@@ -6,7 +6,6 @@ var incorrect_answers=0;
 var questions1='what color is the sky';
 var question2='Your fev food';
 var qustion3="What sport do you like?"
-
 var timeout_counter=$('<p> Time Remaining:'+ my_Timer + '</p>'); // this will be used for time count down
 
 //====================Vars holding my button
@@ -40,14 +39,19 @@ function start_Game(){
   // when user clicks start button  change page
   // change the page and bring back a form
   // add in this for
-  $(".start_Game").html(timeout_counter)
+  $(".start_Game").html(questions1)
   Counter_Id = setInterval(countdown, 1000);
 
   function countdown(){
-    my_Timer--;
-    // alert(my_Timer);
+    for (i=0; i < my_Timer; i++){
+      my_Timer--
+      var my_newTime = my_Timer;
+      $(".countdown").append(my_newTime);
+    };
+
+    // alert(my_newTime);
     // if else
-    // if my timer is =0 chnage the page set to as if submiting the equal button 
+    // if my timer is =0 chnage the page set to as if submiting the equal button
   };
 
   /////////*****//// Add the count down here //*****************/////
