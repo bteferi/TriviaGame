@@ -8,9 +8,9 @@ var incorrect_answers = 0;
 var unanswered = 0;
 var is_SubmitButton_clicked=false;
 // BRING THIS BACK LATER?
-var questions1 = 'what color is the sky?';
-var question2 = 'Your fev food?';
-var qustion3 = "What sport do you like?"
+var questions1 = 'what color is the sky ?';
+var question2 = 'Your your favourite food ?';
+var qustion3 = "what is your favourite sport ?"
 
 var timeout_counter = $('<p> Time Remaining:' + my_Timer + '</p>'); // this will be used for time count down
 
