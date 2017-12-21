@@ -1,13 +1,21 @@
+body{
+    background:url("../images/image.jpg");
+  color:white;
+}
+
+
 .Trivial{
   height:200px;
-  color:blue;
+  color:white;
   text-align: center;
   font-weight:bold;
 }
 
 
 .intractiveBox{
-  height: 250px;
+  width: 45%;
+
+
 
 
 }
