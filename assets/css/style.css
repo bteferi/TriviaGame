@@ -13,9 +13,11 @@ body{
 
 
 .intractiveBox{
-  width: 45%;
+  width: 100%;
+  text-align: center;
 
-
-
-
+}
+h2{
+  text-align: center;
+  color: red;
 }

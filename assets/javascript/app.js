@@ -59,6 +59,7 @@ function start_Game() {
 // below I am checking if the user has clicked on the submite button
       if(is_SubmitButton_clicked==false){
             Submit_Button();
+            alert("TIME OUT!Refresh the page to play again")
       }
       clearInterval(Counter_Id);
       // submit_button function is called to restart the game
